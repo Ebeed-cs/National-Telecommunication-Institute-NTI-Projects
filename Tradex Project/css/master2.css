@@ -1,0 +1,495 @@
+        /* in our services section the boxes in 
+        large l can't do margin between them*/
+           /* image slider come from down when l scroll by the pins  */
+   
+ * {
+    box-sizing: border-box;
+    padding: 0 !important;
+    /* margin: 0; */
+} 
+
+  
+
+           .position-sticky {
+            top: -25px;
+            z-index: 2;
+        }
+        
+        .our-services { 
+            background: linear-gradient(rgba(64, 66, 69, 0.8), rgba(64, 66, 69, 0.8)), url(../images/our-services.jpg);
+            width: 100%;
+            background-size: 100% 100%;
+            height: 100%;
+        } 
+        
+        header i.fs-4.pt-1.fa-regular.fa-envelope {
+            position: relative;
+            bottom: 4px;
+        }
+        
+         nav .navbar-collapse ul {
+            padding: .25rem !important;
+        }
+        
+         nav .navbar-collapse ul li ul li:not(:first-child):not(:last-child) {
+            margin-top: .5rem !important;
+            margin-bottom: .5rem !important;
+        }
+        
+        .two-lines:before {
+            content: "";
+            position: absolute;
+            background-color: #0873f8;
+            width: 100%;
+            height: 2px;
+            left: -110%;
+            top: 70%;
+        }
+        
+        .two-lines span:before {
+            content: "";
+            position: absolute;
+            background-color: #0873f8;
+            width: 80%;
+            height: 2px;
+            left: -90%;
+            top: 50%;
+        }
+        
+        .two-lines:after {
+            content: "";
+            width: 100%;
+            position: absolute;
+            background-color: #0873f8;
+            height: 2px;
+            top: 70%;
+            right: -110%;
+        }
+        
+        .two-lines span:after {
+            content: "";
+            width: 80%;
+            position: absolute;
+            background-color: #0873f8;
+            height: 2px;
+            top: 50%;
+            right: -90%;
+        }
+         
+        
+        .carousel-caption {
+            bottom: 50%;
+        }
+        
+        
+        
+        
+        .btn-outline-light:hover {
+            color: white;
+            background-color: #0873f8;
+            border-color: transparent;
+        }
+        
+        .location {
+            bottom: 6px;
+        }
+        
+        
+        
+        .about-us .col-md-5 > .about-us-icons div:hover i ,
+        .about-us .col-md-5 > .about-us-icons div:hover h3 {
+            color: #0873f8;
+        }
+        
+        
+        .call {
+            bottom: 2px;
+        }
+        
+        i {
+            cursor: pointer;
+        }
+        
+        .services-card-child {
+            /* top: 0; */
+        }
+        
+        
+        
+        
+        
+        .carousel-indicators {
+            right: 15px;
+            bottom: 60%;
+            display: flex;
+            align-items: end;
+            flex-direction: column;
+            margin-right: 5%;
+        }
+        
+        
+        
+        .carousel-indicators [data-bs-target] {
+            width: 7px;
+            height: 7px;
+            opacity: .5;
+            transition: all .4s ease;
+        }
+        
+        
+        
+        
+        .carousel-indicators [data-bs-target]:hover ,
+        .carousel-indicators [data-bs-target]:focus {
+            background-color: #0873f8;
+            transform: scale(1.5);
+        }
+        
+        .navbar-light .navbar-nav .nav-link:focus ,
+         .navbar-light .navbar-nav .nav-link:hover {
+            color: rgb(8 115 248);
+        }
+        
+        /* our-services section  */
+        
+        .our-services-child {
+            position: absolute;
+            width: 100%;
+            top: 100%;
+            transition: all .7s;
+            height: 100%;
+        }
+        
+        .p-7 {
+            padding-top: 5rem !important;
+            padding-bottom: 5rem !important;
+        }
+        .our-services-parent:hover .our-services-child {
+            top: 0;
+        }
+        
+        /* our-work  */
+        
+        .our-work-child {
+            position: absolute;
+            left: 12.5%;
+            top: 60%;
+            transform: scaleX(0);
+            transition: all .8s;
+        }
+        
+        .our-work .our-work-parent:hover .our-work-child {
+            transform: scaleX(1);
+        }
+        
+        .our-work .our-work-parent:hover img {
+            box-shadow: 0px 0px 10px rgb(130, 130, 130);
+        }
+        
+        .diff-color a {
+            text-decoration: none;
+        }
+        
+        .diff-color + .breadcrumb-item::before {
+            color: #3073f8;
+        }
+            
+        .breadcrumb-item+.breadcrumb-item::before {
+            padding-left: .5rem;
+        }
+        
+        ol.breadcrumb.py-4 {
+            justify-content: center;
+        }
+        
+        
+        /* our-creative team  */
+        
+        .our-creative-team .card {
+            align-items: center; 
+        }
+        
+        .our-creative-team .card-img {
+            width: fit-content;
+        }
+        
+        .our-creative-team .our-creative-child {
+            position: absolute;
+            top: 80%;
+        }
+        
+        .our-creative-team .our-creative-child span {
+            width: 90%;
+            height: 1.5px;
+            left: 5%;
+            bottom: 0.1rem;
+        }
+        
+        .our-creative-team .our-creative-child .team-icons i:hover{
+            color: black;
+        }
+        
+        .our-creative-team .our-team-card-parent .our-creative-child {
+        
+            transition: all .7s ease-in-out;
+        }
+        
+        .our-creative-team .our-creative-child .our-team-name-hover:hover {
+            color: #3073f8 !important;
+            cursor: pointer;
+        }
+        
+        .our-creative-team .our-team-card-parent:hover .our-creative-child {
+            transform: translateY(-60%);
+        } 
+        
+        .our-creative-team .our-team-card-parent:hover .our-creative-child span {
+            display: none;
+        }
+        
+        
+        /* our pricing  */
+        
+        .our-pricing .btn-group button {
+            border-radius: 1.25rem;
+            background-color: white;
+            color: #0d6efd;
+        }
+        
+        .our-pricing .btn-group button:focus {
+            box-shadow: none;
+            background-color: #0d6efd;
+            color: white;
+        
+        }
+
+        .my-shadow {
+            box-shadow: 0px 0px 16px rgb(130, 130, 130);
+            z-index: 1;
+        
+        }
+
+        /* subscribe section  */
+        .subscribe [type="text"] {
+            height: 35px;
+        }
+        
+        /* testimonial section  */
+        .testmonial i:first-of-type {
+                border-top-right-radius: 0 !important;
+                border-bottom-right-radius: 0 !important;
+        }
+
+        .testmonial i:last-of-type {
+                border-top-left-radius: 0 !important;
+                border-bottom-left-radius: 0 !important;
+        }
+
+        /* latest blog section  */
+
+        .latest-blog .align-body-card {
+            position: relative;
+            left: 20px;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .latest-blog .lock-border i:first-of-type::after {
+            content: "";
+            position: absolute;
+            width: 1%;
+            background-color: gray;
+            height: 100%;
+            right: -10%;
+            top: -2%;
+        }
+
+        .latest-blog .progress {
+            height: 1%;
+        }
+
+        .latest-blog .progress-bar ,
+        .latest-blog .align-icon-column ,
+        .latest-blog img  ,
+        .latest-blog .translated-arrow{
+            transition: all .6s;
+
+        }
+
+        .first-blog:hover  .progress-bar,
+        .second-blog:hover .progress-bar,
+        .third-blog:hover  .progress-bar {
+            width: 100% !important;
+
+        }
+
+        .first-blog:hover .align-icon-column ,
+        .second-blog:hover .align-icon-column ,
+        .third-blog:hover .align-icon-column {
+            background-color: #0873f8 !important;
+        }
+
+        .first-blog:hover img ,
+        .second-blog:hover img , 
+        .third-blog:hover img {
+            transform: scale(1.2) rotate(4deg)
+        }
+
+        .latest-blog .translated-arrow {
+            top: 20%;
+            left: 25%;
+        }
+
+        .latest-blog button:hover + .translated-arrow {
+            transform: translateX(20px);
+        }
+
+        /* meet our clients  */
+
+        .meet-clients .two-lines:before {
+            display: none;
+        }
+        
+        .meet-clients .two-lines span:before {
+            display: none;
+        }
+
+        
+
+        @media (max-width: 575px) {
+            .logo-img-parent {
+                width: 98%;
+            }
+            .our-pricing button[data-bs-target=".multi-collapse"] {
+                border-top-right-radius: 1.25rem !important;
+                border-bottom-right-radius: 1.25rem !important;
+                border-top-left-radius: 1.25rem !important;
+                border-bottom-left-radius: 1.25rem !important;
+            } 
+
+            .our-pricing button[data-bs-target=".multi-collapse"]:first-of-type {
+             margin-right: 10%; 
+            }
+
+            .our-pricing .btn-group {
+                width: 50% !important;
+            }
+            
+        }
+        
+        /* footer section  */
+        
+       
+
+        @media (min-width: 576px) {
+            .our-creative-team .our-team-card-parent:hover .our-creative-child {
+                transform: translateY(-66%);
+            } 
+            
+            .logo-img-parent {
+                width: 98%;
+            }
+
+            .subscribe .right-subscribe [type="text"] {
+                width: 75% !important;
+            }
+
+            .subscribe .right-subscribe .rounded-pill {
+                width: 100% !important;
+            }
+
+        }
+        
+        @media (min-width: 768px) {
+            .about-us-icons {
+                left: 20%;
+                top: 1%;
+            }
+        
+            .our-creative-team .our-team-card-parent:hover .our-creative-child {
+                transform: translateY(-62%);
+            } 
+
+            .latest-blog .col:first-of-type .card-body .align-icon-column {
+                left: -7px;
+                top: 50%;
+            }
+
+            .call-section button {
+                width: 100% !important;
+            }
+            
+        }
+        
+        @media (min-width: 992px) {
+            nav #navbarNavDropdown {
+                width: 100%;
+            }
+
+            .our-services .boxes-parent p {
+                padding-bottom: 0 !important;
+            }
+        
+            .logo-img-parent {
+                width: 50%;
+            }
+        
+            nav #navbarNavDropdown ul {
+                width: 100%
+            }
+        
+            .our-creative-team .our-team-card-parent:hover .our-creative-child {
+                transform: translateY(-64%);
+            } 
+
+            .latest-blog .translated-arrow {
+                top: 20%;
+                left: 30%;
+            }
+
+            .call-section button {
+                width: 50% !important;
+            }
+        }
+        
+        @media (min-width: 1200px) {
+            .latest-blog .translated-arrow {
+                top: 20%;
+                left: 25%;
+            }
+
+            .meet-clients .boxes-big-man {
+                position: absolute;
+                left: 36%;
+                top: 30%;
+            } 
+
+            .meet-clients .align-lines-client 
+             {
+                position: relative;
+                left: 35%;
+            }
+
+            .call-section i {
+                font-size: 150px;
+                color: white; 
+                opacity: 25%;
+                position: relative;
+            }
+            
+            .call-section h3 {
+                position: relative;
+                top: 52px;
+                font-size: 40px;
+            }
+            
+        }
+        
+        @media (min-width: 1400px) {
+            
+        }
+        
+        
+        
