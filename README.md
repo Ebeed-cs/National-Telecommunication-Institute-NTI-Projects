@@ -15,7 +15,7 @@ Welcome to my project portfolio, showcasing the skills and experiences I acquire
   3. Well-structured layout for easy navigation.
 - **Technologies Used**: HTML5, CSS3
 - **Screenshot**: ![Project 1 Screenshot](https://github.com/user-attachments/assets/ca2b7fe6-78a4-4a87-bb30-3b4c25a65964)
-- **Video Demo**: [Watch the demo](https://drive.google.com/file/d/1EWuTxk9_AKdpA9d65On3x73mCMnYxQ26/view?usp=drive_link)
+- **Video Demo**: [Watch the demo](https://youtu.be/NprUZ4XhpkY)
 
 ---
 
@@ -28,7 +28,7 @@ Welcome to my project portfolio, showcasing the skills and experiences I acquire
   3. Engaging animations facilitated by Animate CSS and WOW libraries.
 - **Technologies Used**: HTML5, CSS3, Animate CSS, WOW library
 - **Screenshot**: ![Project 2 Screenshot](https://github.com/user-attachments/assets/5493018b-914c-4016-b9ba-ff609f96a29e)
-- **Video Demo**: [Watch the demo](https://drive.google.com/file/d/1Ma6nvpCP-Wq78nX-TgREaRSZOX1VJEIf/view?usp=sharing)
+- **Video Demo**: [Watch the demo](https://youtu.be/mIPVN24t5LA)
 
 ---
 
@@ -41,7 +41,7 @@ Welcome to my project portfolio, showcasing the skills and experiences I acquire
   3. Easily customizable templates for future updates and scalability.
 - **Technologies Used**: Bootstrap, HTML5, CSS3
 - **Screenshot**: ![Project 3 Screenshot](https://github.com/user-attachments/assets/02df1d98-84c6-447f-b876-2f91dc2ff6f2)
-- **Video Demo**: [Watch the demo](https://drive.google.com/file/d/1pZYJK_5Na8JRDEhA92YbYTAKhrBtibMj/view?usp=sharing)
+- **Video Demo**: [Watch the demo](https://youtu.be/wD0Sun4KRiw)
 
 ---
 
